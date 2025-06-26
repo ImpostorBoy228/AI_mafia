@@ -1,0 +1,20 @@
+{
+  "players": [
+    {"name": "Денис", "role": "mafia", "persona": "analytical, calm detective-style thinker, manipulator"},
+    {"name": "Евгений", "role": "civilian", "persona": "talkative, optimistic journalist, gay"},
+    {"name": "Дмитрий", "role": "civilian", "persona": "nervous but insightful student, gay"},
+    {"name": "Игорь Войтенко", "role": "civilian", "persona": "confident, logical engineer, likes jokes about balls"},
+    {"name": "Энрико Пуччи", "role": "civilian", "persona": "quiet, observant artist, gay"},
+    {"name": "НПС 1", "role": "civilian", "persona": "devious, cunning strategist"},
+    {"name": "НПС 2", "role": "mafia", "persona": "charismatic, manipulative negotiator"}
+  ],
+  "ollama": {
+    "model": "mistral:latest",
+    "temperature": 0.7,
+    "top_p": 0.9,
+    "host": "http://localhost:11434"
+  },
+  "context": {
+    "max_messages": 20
+  }
+}
