@@ -122,7 +122,3 @@ python game.py
 Ensure your Ollama server is running and configured as required.
 
 ---
-
-## References
-
-- See the [README.md](README.md) for a high-level project description.
